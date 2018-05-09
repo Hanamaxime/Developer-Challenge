@@ -1,0 +1,102 @@
+
+<html>
+<head>
+	<title>Frontend Developer Challenge</title>
+<!-- attach bootstrap -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+
+<!--  attach jquery -->
+<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+
+<!-- attach google font -->
+<link href="https://fonts.googleapis.com/css?family=Helvetica" rel="stylesheet">
+</head>
+
+<!-- create new class to overwrite bootstrap -->
+ <body class="body">
+    
+	<div class="container" >
+
+<!-- new row -->
+		<div class="row">
+			<!-- create side margin -->
+		    <div class="col-md-3"></div>
+		    <!-- length of main information -->
+			<div class="col-md-7">
+				<p class= "title">Stay up to date with ecommerce trends with Shopify's newsletter</p>
+			</div>
+		</div>
+
+<!-- new row -->
+		<div class="row">
+			<!-- create side margin -->
+		    <div class="col-md-3"></div>
+			<div class="col-sm-">
+			<hr class="line" width= 30>
+			</div>
+		</div>
+
+<div id="formSubmission" class="formSubmission">
+    <div class="formTitle">
+		<div class="row">
+			<!-- create side margin -->
+		    <div class="col-md-3"></div>
+			<div class="col-md-7">
+				<p class= "subTitle">Subscribe for free markteting tips</p>
+			</div>
+		</div>
+
+<!-- new row -->
+	<div class="row">
+		     <div class="col-md-3"></div>
+    			<div class="col-md-4">
+						<div class="input-group input-group-lg">
+							<input id="email" type="text" class="form-control" placeholder="Email Address">
+						</div>
+				</div>
+
+			      <div class="col-md-3 ">
+					<select class="form-control form-control-lg minimal">
+						<!-- disabled so that user cannot chose  -->
+					  <option value="0"disabled selected hidden>Interested in ...</option>
+					  		<option value="Website">Website</option>
+					  		<option value="Business">Business</option>
+					        <option value="Marketing">Marketing</option> 
+					</select>
+			      </div>
+		</div>
+
+<!-- new row -->
+		<div class="row">
+		    <div class="col-md-3"></div>
+			<div class="col-md-5">
+			<div class="help-block with-errors">
+						<p id= "result" class="errorText"> </p>
+					</div>
+			</div>
+		</div>
+<!-- new row -->
+		<div class="row">
+      <div class="col-md-3"></div>
+      <div class ="col-md-7">
+      				<!-- when button is clicked call the validate function -->
+					<button id="signupNow" type="button" class=" btn btn-lg btn-block blueButton" onclick="validate()">Sign up now
+					</button>
+				</div>
+		</div>
+    </div>
+   
+    <div class="thanks" id="revealThanks">
+		<div class="row">
+		     <div class="col-md-3"></div>
+			<div class="col-md-7">
+			<p class = "thanksMessage"><strong>Thanks for subscribing</strong></p>
+	       <p class= "thanksMessage">You'll start receving free tips and resources soon.</p>
+		</div>
+    </div>
+	</div>
+   
+</body>
+</html>

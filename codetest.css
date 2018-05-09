@@ -1,0 +1,67 @@
+
+/*-----default------*/
+.body {
+    background-color: #000639;
+    font-family: 'Helvetica', sans-serif;
+}
+.col-centered{
+    float: none;
+    display: block;
+    margin: 0 auto;
+}
+
+/*---title text----*/
+
+.title
+{
+  margin-bottom: -0px;
+  margin-top: 50px;
+  color: #FFFFFF;
+  font-size:24pt;
+}
+
+.subTitle{
+  color: #FFFFFF;
+  font-size:16pt;
+  font-color :#FFFFFF;
+}
+
+/*---submit btn----*/
+
+.blueButton
+{
+ background-color: #5c6ac4;
+ color: #FFFFFF;
+ text-align: center;
+ font-size:16pt;
+}
+
+.line{
+  border-top: 4px solid #7AB55C;
+  margin-left:15px
+}
+
+/*----thanks msg----*/
+
+.thanksMessage{
+ color: #FFFFFF;
+ font-size:16pt;
+}
+
+.thanks{
+  margin-top: 25px;
+  visibility:hidden;
+}
+
+/*--Submit form--*/
+
+.formSubmission{
+  margin-top: 25px;
+}
+
+.errorText{
+  color: #C23628;
+  font-size:12pt;
+}
+
+
